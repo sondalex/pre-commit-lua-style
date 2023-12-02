@@ -1,0 +1,7 @@
+- id: stylua 
+  entry: "stylua"
+  args: ["--check", "--glob", '*.lua', "--", "."] 
+  pass_filenames: false
+  name: stylua 
+  language: system 
+  description: 'Stylua checker'
